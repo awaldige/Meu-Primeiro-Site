@@ -7,9 +7,26 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Olá, mundo! Sou André Waldige</h1>
-    <p>Este é meu primeiro site no VS Code. 🚀</p>
-    <button onclick="alert('Botão clicado!')">Clique aqui</button>
+    <header>
+        <h1>Olá, mundo! Sou André Waldige</h1>
+        <button id="dark-mode-toggle">🌙 Modo Escuro</button>
+    </header>
+
+    <main>
+        <p>Este é meu primeiro site no VS Code. 🚀</p>
+        <button id="alert-btn">Clique aqui</button>
+        
+        <section class="contact">
+            <h2>Entre em Contato</h2>
+            <form id="contact-form">
+                <input type="text" placeholder="Seu Nome" required>
+                <input type="email" placeholder="Seu Email" required>
+                <textarea placeholder="Sua Mensagem" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
     <script src="script.js"></script>
 </body>
 </html>
